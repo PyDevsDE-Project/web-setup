@@ -1,0 +1,60 @@
+/* Default setup */
+/* Default setup */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+/* End */
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  color: #e67e22;
+  background: #2c3e50;
+}
+
+/* End */
+.box {
+  -webkit-transition: 2s;
+  transition: 2s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 2px solid white;
+  border-radius: 15px;
+  min-height: 400px;
+  -webkit-box-shadow: 0px 10px 60px #e67e22;
+          box-shadow: 0px 10px 60px #e67e22;
+}
+
+.box h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+.box button {
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-color: transparent;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#d35400), color-stop(#e67e22), to(#d35400));
+  background-image: linear-gradient(to left, #d35400, #e67e22, #d35400);
+  font-weight: 400;
+  font-size: 15.5px;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  margin: 20px;
+  width: 400px;
+  padding: 10px;
+  cursor: pointer;
+  background-size: 200%;
+}
+
+.box button:hover {
+  background-size: 1%;
+}
+
+.box:hover {
+  -webkit-box-shadow: 0px 15px 80px #e67e22;
+          box-shadow: 0px 15px 80px #e67e22;
+}
+/*# sourceMappingURL=style.css.map */
